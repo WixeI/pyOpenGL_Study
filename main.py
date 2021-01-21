@@ -50,7 +50,7 @@ def main():
     #Os últimos 2 parâmetros indicam onde fica o plano de começo e de limite da render distance
         #Ou seja, tudo que estiver atrás do plano limite não será desenhado
         #Tudo que estiver mais perto que o plano de começo não será desenhado
-    #Par(distância, aspect ratio, init_render_distance_plane, end_render_distance_plane  )
+    #Par(ângulo de abertura da câmera, aspect ratio, init_render_distance_plane, end_render_distance_plane  )
     gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
 
     glTranslatef(0.0, 0.0, -5)
